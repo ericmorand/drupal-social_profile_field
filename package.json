@@ -1,0 +1,13 @@
+{
+  "name": "social_profile_field",
+  "version": "0.3.0",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm run build && git add -A dist"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.7"
+  }
+}

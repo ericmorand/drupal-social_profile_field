@@ -1,0 +1,12 @@
+name: 'Social profile field'
+type: module
+description: 'A Drupal 8 field to display social profiles'
+package: Fields
+core: 8.x
+version: '0.3.0'
+datestamp: 1510753004
+project: 'social_profile_field'
+dependencies:
+  - drupal:node
+  - drupal:field
+configure: social_profile_field.settings
