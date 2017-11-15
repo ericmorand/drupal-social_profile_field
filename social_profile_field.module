@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function social_profile_field_theme() {
+  return [
+    'social_profile_formatter' => [
+      'variables' => [
+        'network' => NULL,
+        'url' => NULL
+      ],
+    ],
+  ];
+}

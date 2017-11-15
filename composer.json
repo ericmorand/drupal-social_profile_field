@@ -1,0 +1,13 @@
+{
+    "name": "ericmorand-drupal/social_profile_field",
+    "description": "A Drupal 8 field to display social profiles",
+    "type": "drupal-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Eric MORAND",
+            "email": "eric.morand@gmail.com"
+        }
+    ],
+    "require": {}
+}
